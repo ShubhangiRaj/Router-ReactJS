@@ -28,7 +28,7 @@ class Speed extends Component {
   	};
 
   	changeColor(){
-  		const newColor = this.state.color == green?yellow:green;
+  		const newColor=this.state.color === green?yellow:green;
   		this.setState({color: newColor });
   	}
 
@@ -36,7 +36,7 @@ class Speed extends Component {
 		return (
 				<div style={{background: this.state.color}}>
 					<h2>Speed</h2>
-					<button onClick = {this.changeColor}>Change State</button>
+					<button onClick={this.changeColor}>Change State</button>
 					<span>
 						<button onClick={this.slow}>Slow</button>
 						<button onClick={this.medium}>Medium</button>

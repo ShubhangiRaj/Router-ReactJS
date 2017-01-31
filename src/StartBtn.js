@@ -8,7 +8,7 @@ class StartBtn extends Component {
 
 	render(){
 
-		if (this.props.name == "Testing"){
+		if (this.props.name === "Testing"){
 			return (
 		      	<div>
 			      	<h2>

@@ -4,7 +4,7 @@ class Duration extends Component {
 	render(){
 		return (
 				<div>
-					<h2>Duration</h2>
+					<h2>Testing</h2>
 					<span>
 						<p>mins:secs</p>
 					</span>
