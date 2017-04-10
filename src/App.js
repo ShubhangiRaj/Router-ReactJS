@@ -12,8 +12,8 @@ class App extends Component{
                 <h2>Welcome to Routers-in-React</h2>
             </div>
             <ul className="header">
-              <li><IndexLink to="/" activeClassName="active">Home</IndexLink></li>
-              <li><Link to="/about" activeClassName="active">About</Link></li>
+              <li><IndexLink to="/" activeClassName="active">Introduction</IndexLink></li>
+              <li><Link to="/implementation" activeClassName="active">Implementation</Link></li>
               <li><Link to="/contact" activeClassName="active">Contact</Link></li>
             </ul>
             <div className="content">
