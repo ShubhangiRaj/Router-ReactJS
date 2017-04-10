@@ -1,13 +1,22 @@
 import React, { Component } from 'react';
-import { Router, Route, Link, browserHistory, IndexRoute  } from 'react-router'
 
 class About extends Component {
     render() {
         return (
-            <div className="about">
-               <h1>About...</h1>
+            <div>
+              <h2>About Us</h2>
+              <p>Mauris sem velit, vehicula eget sodales vitae,
+              rhoncus eget sapien.</p>
+              <h3>Our team:</h3>
+              <ol>
+                <li>Nulla pulvinar diam</li>
+                <li>Facilisis bibendum</li>
+                <li>Vestibulum vulputate</li>
+                <li>Eget erat</li>
+                <li>Id porttitor</li>
+              </ol>
             </div>
-        );
+          );
     }
 }
 

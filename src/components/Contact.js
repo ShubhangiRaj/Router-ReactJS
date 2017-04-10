@@ -1,16 +1,15 @@
 import React, { Component } from 'react';
-import { Router, Route, Link, browserHistory, IndexRoute  } from 'react-router'
 
-class Contact extends Component {
-    render() {
-        return (
-            <div className="contact">
-                <div className="contact-tab">
-                    <h1>Contact...</h1>
-                </div>
-            </div>
-        );
+class Contact extends Component{
+  render() {
+      return (
+        <div>
+          <h2>Got Questions?</h2>
+          <p>The easiest thing to do is get in touch with me <a href="https://twitter.com/Shubhangi13" target="_blank">@Shubhangi13</a>.
+          </p>
+        </div>
+      );
     }
-}
+};
 
 export default Contact;
